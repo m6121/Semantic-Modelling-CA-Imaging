@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/"
+     xml:base="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:bfo="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl#"
+     xmlns:bto="http://purl.obolibrary.org/obo/bto/releases/2020-05-02/bto.owl#"
+     xmlns:clo="http://purl.obolibrary.org/obo/clo.owl#"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obi="http://purl.obolibrary.org/obo/obi/2020-04-23/obi.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bto2="http://purl.obolibrary.org/obo/bto#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov-o-20130430#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/189/chebi.owl#"
+     xmlns:prov1="http://www.w3.org/ns/prov#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:chebi3="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#"
+     xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#2"
+     xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:chebi8="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:refont="http://purl.obolibrary.org/obo/uberon/refont/"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
+     xmlns:elements="http://purl.org/dc/elements/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:cellline4="http://www.ebi.ac.uk/cellline#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:disease_ontology="http://purl.org/obo/owlapi/disease_ontology#">
+    <owl:Ontology rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bto/releases/2020-05-02/bto.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi/189/chebi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2020-04-23/obi.owl"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/supplier_id -->
+
+    <owl:AnnotationProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/supplier_id"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0051628 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0051628"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000647 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000647"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov-o-20130430#wasAttributedTo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov-o-20130430#wasAttributedTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_lot_number -->
+
+    <owl:ObjectProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_lot_number">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000132"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/is_passage_of -->
+
+    <owl:ObjectProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/is_passage_of">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007699"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000132"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Organization"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/lot_MG-63 -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/lot_MG-63">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000132"/>
+        <obo:IAO_0000136 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(P25,_LOT_123456)"/>
+        <rdfs:label>LOT 57840088</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(LOT_57840088) -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(LOT_57840088)">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0007699"/>
+        <has_lot_number rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/lot_MG-63"/>
+        <supplier_id>CRL1427</supplier_id>
+        <obo:OBI_0000647 rdf:resource="http://purl.obolibrary.org/obo/CLO_0000006"/>
+        <rdfs:label>MG-63 (LOT 57840088)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(P25,_LOT_57840088) -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(P25,_LOT_57840088)">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0007699"/>
+        <has_lot_number rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/lot_MG-63"/>
+        <is_passage_of rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(LOT_57840088)"/>
+        <obo:CLO_0051628>Passage number 25</obo:CLO_0051628>
+        <obo:OBI_0000647 rdf:resource="http://purl.obolibrary.org/obo/CLO_0000006"/>
+        <rdfs:label>MG-63 (Passage 25, LOT 57840088)</rdfs:label>
+        <prov:wasAttributedTo rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000006 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CLO_0000006">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

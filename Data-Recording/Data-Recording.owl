@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/"
+     xml:base="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:bfo="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl#"
+     xmlns:bto="http://purl.obolibrary.org/obo/bto/releases/2020-05-02/bto.owl#"
+     xmlns:clo="http://purl.obolibrary.org/obo/clo.owl#"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obi="http://purl.obolibrary.org/obo/obi/2020-04-23/obi.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bto2="http://purl.obolibrary.org/obo/bto#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov-o-20130430#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/189/chebi.owl#"
+     xmlns:fabio="http://purl.org/spar/fabio/"
+     xmlns:prov1="http://www.w3.org/ns/prov#"
+     xmlns:skos1="http://www.w3.org/2008/05/skos#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:chebi3="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#"
+     xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#2"
+     xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:chebi8="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:refont="http://purl.obolibrary.org/obo/uberon/refont/"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/"
+     xmlns:elements="http://purl.org/dc/elements/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:cellline4="http://www.ebi.ac.uk/cellline#"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:disease_ontology="http://purl.org/obo/owlapi/disease_ontology#">
+    <owl:Ontology rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bto/releases/2020-05-02/bto.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi/189/chebi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi/2020-04-23/obi.owl"/>
+        <owl:imports rdf:resource="http://purl.org/spar/fabio/2019-02-19"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/cell_count -->
+
+    <owl:AnnotationProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/cell_count"/>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_camera_objective -->
+
+    <owl:AnnotationProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_camera_objective"/>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/sha256sum -->
+
+    <owl:AnnotationProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/sha256sum"/>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/version -->
+
+    <owl:AnnotationProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_format -->
+
+    <owl:ObjectProperty rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/has_format"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/IBIDI -->
+
+    <owl:Class rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/IBIDI">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002088"/>
+        <owl:disjointWith rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC -->
+
+    <owl:Class rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002088"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ATP -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ATP">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15422"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/LSM-780 -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/LSM-780">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001125"/>
+        <has_camera_objective>&apos;C-Apochromat 40× water immersion objective&apos;</has_camera_objective>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/LSM-780_Scan_Function -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/LSM-780_Scan_Function">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000397"/>
+        <obo:BFO_0000054 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Record_Observation_data"/>
+        <obo:RO_0000052 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/LSM-780"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_IBIDI_Relocated -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_IBIDI_Relocated">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001911"/>
+        <cell_count rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</cell_count>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data_CZI -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data_CZI">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <rdf:type rdf:resource="http://purl.org/spar/fabio/DataFile"/>
+        <has_format rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/czi"/>
+        <obo:BFO_0000186 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data"/>
+        <fabio:hasURL>file://PPAAm-n5-1serie-ATP.czi</fabio:hasURL>
+        <sha256sum>a2c5d909f169bfaa55b1ad50957f7d9a3a8b2e4bb340b124a639e3d23471569e</sha256sum>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Record_Observation_data -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Record_Observation_data">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001007"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <obo:BFO_0000055 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/plan_NUNC_MG-63_Ti-PPAAm_Record_Observation_data"/>
+        <obo:OBI_0000293 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_IBIDI_Relocated"/>
+        <obo:OBI_0000299 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/NUNC_MG-63_Ti-PPAAm_Observation_data"/>
+        <prov1:used rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ATP"/>
+        <prov1:used rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ZEN_2011"/>
+        <prov1:wasAssociatedWith rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/S-St">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ZEN_2011 -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/ZEN_2011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+        <version xml:lang="en">ZEN 2011 SP4, black edition</version>
+        <dc:publisher xml:lang="en">Carl Zeiss</dc:publisher>
+        <efo:alternative_term xml:lang="en">ZEISS Efficient Navigation 2011 (black edition)</efo:alternative_term>
+        <rdfs:label xml:lang="en">ZEN 2011 (black edition)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/czi -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/czi">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+        <rdfs:label>Carl Zeiss Image Data File</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/plan_NUNC_MG-63_Ti-PPAAm_Record_Observation_data -->
+
+    <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/plan_NUNC_MG-63_Ti-PPAAm_Record_Observation_data">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+        <rdfs:comment>* stimulation at 488nm by argon ion laser; emission at 566nm
+* exposed with 776 gain, 1.0 digital offset, with pinhole 15AU and 13.5 µm
+* &quot;time series&quot; recording with one cycle every 2s for 240 cycles -&gt; 8 min
+* At 90th cycle add ATP (10 µl, 100 mM)</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
