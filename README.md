@@ -22,3 +22,5 @@ The repository contains two subfolders with two excerpts of the overall model:
 2. `MG-63` is the model of MG-63 database item that was supplied from the ATCC.
 
 Each of these folders contains a screenshot from the corresponding Electronic Lab Notebook resource as well as a PDF illustration of the model and the semantic model itself in form of an `owl` file.
+
+The overall model of the ELN protocol is contained in the file `CA-Imaging.owl`.
