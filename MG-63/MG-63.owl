@@ -190,7 +190,7 @@
 
     <owl:NamedIndividual rdf:about="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/lot_MG-63">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000132"/>
-        <obo:IAO_0000136 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(P25,_LOT_123456)"/>
+        <obo:IAO_0000136 rdf:resource="http://provenance.elaine.uni-rostock.de/ontologies/ca-imaging/MG-63_(P25,_LOT_57840088)"/>
         <rdfs:label>LOT 57840088</rdfs:label>
     </owl:NamedIndividual>
     
